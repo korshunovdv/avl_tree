@@ -4,9 +4,9 @@
 
 ### Usage:
 
-# Create AVL Tree object
-    ` my_tree = AVLTree() `
-    ` root = None `
+    # Create AVL Tree object
+    my_tree = AVLTree()
+    root = None
     # Add first root 10
     root = my_tree.insert(root, 10)
     root = my_tree.insert(root, 5)
