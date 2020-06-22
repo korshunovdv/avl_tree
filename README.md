@@ -7,10 +7,12 @@
     # Create AVL Tree object
     my_tree = AVLTree()
     root = None
+    
     # Add first root 10
     root = my_tree.insert(root, 10)
     root = my_tree.insert(root, 5)
     root = my_tree.insert(root, 15)
+    
     # Let's imagine our current tree
     
     #         10                                        
@@ -19,6 +21,7 @@
 
     root = my_tree.insert(root, 3)
     root = my_tree.insert(root, 4)
+    
     # Now we are here.
     
     #       10            10             10   
