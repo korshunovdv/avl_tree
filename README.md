@@ -1,12 +1,12 @@
 ## AVL tree (named after inventors Adelson-Velsky and Landis) 
-### My implementation of AVL Tree, just for understanding algorithm
+#### My implementation of AVL Tree, just for understanding algorithm
 
 
-Usage:
+### Usage:
 
 # Create AVL Tree object
-    `my_tree = AVLTree()`
-    `root = None`
+    ` my_tree = AVLTree() `
+    ` root = None `
     # Add first root 10
     root = my_tree.insert(root, 10)
     root = my_tree.insert(root, 5)
